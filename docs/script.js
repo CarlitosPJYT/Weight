@@ -8,5 +8,6 @@ var result
 
 if (planet == 1) {result = Weight * Marte / Tierra}
 else if (planet == 2) {result = Weight * Jupiter / Tierra}
+else{result = false}
 result = parseInt(result)
 document.write("<p class='text-gray-300'>" + result + "</p>")
