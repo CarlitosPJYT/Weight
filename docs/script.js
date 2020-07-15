@@ -8,4 +8,4 @@ var result
 
 result = Weight * Marte / Tierra
 result = parseInt(result)
-document.write("<p class='text-gray-300'" + result)
+document.write("<p class='text-gray-300'>" + result + "</p>")
